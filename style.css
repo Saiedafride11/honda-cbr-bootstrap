@@ -1,0 +1,77 @@
+/* ******************************** */
+            /* Global Section */
+/* ******************************** */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
+    font-weight:400;
+    line-height:22px;
+}
+.btn{
+    color: #fff !important;
+    background-color: #E76F51 !important;
+    border: 2px solid transparent !important;
+}
+.btn:hover{
+    color: #E76F51 !important;
+    border: 2px solid #E76F51 !important;
+    background-color: transparent !important;
+    transition:1s;
+}
+.highlight-color{
+    color: #E76F51;
+}
+.highlight-color-2{
+    color: #23A6F0;
+}
+/* ******************************** */
+            /* Custom Css */
+/* ******************************** */
+.header-section{
+    background-color: #264653;
+}
+.nav-link{
+    color: #fff !important;
+    padding-right: 2rem !important;
+}
+.navbar-toggler {
+    background-color: #fff !important;
+    border: none;
+}
+.dot-bg{
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 95% 23%;
+}
+.banner-section img:hover{
+    transform: rotate(10deg);
+    transition: 1.5s ease-in;
+}
+.img-grayscale{
+    filter: grayscale(100%);
+}
+/* header (toggle) and question section */
+.navbar-toggler:focus, .btn-check:focus+.btn, .btn:focus{
+    box-shadow: none !important;
+}
+
+/* ******************************** */
+            /* Responsive Css */
+/* ******************************** */
+@media only screen and (min-width: 320px) and (max-width:992px) {
+    .nav-link {
+        padding-right: 0 !important;
+        text-align: center;
+    }
+}
